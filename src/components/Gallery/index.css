@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+}
+.app-container {
+  background-color: #ffffff;
+  background-size: cover;
+  padding: 50px;
+}
+.gallery-container {
+  width: 100%;
+  height: 100%;
+}
+.selected-image {
+  width: 40%;
+}
+.image-list {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0px;
+}
